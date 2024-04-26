@@ -4,70 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>自己紹介</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f3f3f3;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-        }
-        .header {
-            background-color: #333;
-            color: #fff;
-            padding: 40px 0;
-            text-align: center;
-            border-bottom: 2px solid #fff;
-        }
-        .header h1 {
-            margin: 0;
-            font-size: 2em;
-            letter-spacing: 2px;
-        }
-        .content {
-            padding: 40px;
-            text-align: center;
-        }
-        .intro {
-            margin-bottom: 40px;
-        }
-        .intro p {
-            color: #666;
-            font-size: 1.1em;
-            line-height: 1.6;
-            margin: 0 auto;
-            max-width: 600px;
-        }
-        .profile-img {
-            border-radius: 50%;
-            max-width: 200px;
-            margin-bottom: 20px;
-        }
-        .signature {
-            text-align: right;
-            font-style: italic;
-            color: #999;
-            margin-top: 40px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>自己紹介</h1>
+    <header>
+        <h1>私の自己紹介</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">自己紹介</a></li>
+                <li><a href="#skills">スキル</a></li>
+                <li><a href="#contact">コンタクト</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="container">
+            <h2>私について</h2>
+            <p>はじめまして、私は杉田真輝です。好きなことはゲームと読書です。好きな本のジャンルはミステリーです。よろしくお願いします。　</p>
         </div>
-        <div class="content">
-            <div class="intro">
-                <p>はじめまして、私の名前は杉田真輝です。趣味はゲームや読書で、好きな本のジャンルはミステリーです。</p>
-            </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>スキル</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>デザイン</li>
+            </ul>
         </div>
-    </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>コンタクト</h2>
+            <p>お問い合わせは以下のメールアドレスまでお願いします：<a href="mailto:example@example.com">example@example.com</a></p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 私の自己紹介</p>
+        </div>
+    </footer>
 </body>
 </html>
+
